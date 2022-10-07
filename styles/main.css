@@ -1,0 +1,42 @@
+.choices {}
+
+.options {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 2px dashed rgb(15, 15, 15);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    margin: 60px;
+    margin-left: 100px;
+    background-color: rgb(54, 34, 8);
+}
+
+.choices {
+    color: rgb(10, 235, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.orders {
+    flex-basis: 80%;
+    margin: 10px;
+    border-radius: 00.5rem;
+    background-color: black;
+    color: aqua;
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+#orderButton {
+    /* margin: 1rem 0 2rem 2rem; */
+    padding: 0.5rem;
+    background-color: rgb(227, 72, 72);
+    color: lightgoldenrodyellow;
+    font-size: 1.5rem;
+}
